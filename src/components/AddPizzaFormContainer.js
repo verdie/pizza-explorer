@@ -25,7 +25,7 @@ const mapStateToProps = (state) => {
     //         return pizza
     //     })
     // }}
-    return {pizza: state.addPizza} 
+    return {pizza: state} 
 }
 
 export default connect(mapStateToProps)(AddPizzaFormContainer)
